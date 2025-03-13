@@ -1,0 +1,23 @@
+[
+    {
+        "dette_id": "1",
+        "montant": "1000",
+        "date": "2020-01-01",
+        "client_id": "1",
+        "etat": " Solde"
+    },
+    {
+        "dette_id": "2",
+        "montant": "1000",
+        "date": "2020-01-01",
+        "client_id": "2",
+        "etat": " Restant"
+    },
+    {
+        "dette_id": 3,
+        "montant": "120",
+        "date": "2025-03-13",
+        "client_id": 3,
+        "etat": "Restant"
+    }
+]

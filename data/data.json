@@ -1,0 +1,61 @@
+{
+    "clients": [
+      {
+        "id": "1",
+        "nom": "Fall",
+        "tel": "77",
+        "adresse": "PIKINE"
+      },
+      {
+        "id": "2",
+        "nom": "Diop",
+        "tel": "781034125",
+        "adresse": "DAKAR"
+      }
+      ],
+      "dettes": [
+        {
+          "dette_id": "1",
+          "montant": "1000",
+          "date": "2020-01-01",
+          "client_id": "1",
+          "etat": " Solde"
+          },
+          {
+            "dette_id": "2",
+            "montant": "1000",
+            "date": "2020-01-01",
+            "client_id": "2",
+            "etat": " Restant"
+            }
+          ],
+          "articles": [
+            {
+                "reference": "1",
+                "libelle": "lait",
+                "quantite_stock": "10",
+                "prix": "100"
+                },
+                {
+                    "reference": "2",
+                    "libelle": "mil",
+                    "quantite_stock": "20",
+                    "prix": "200"
+                    }
+                ],
+                "Article-Dette": [
+                    {
+                        "reference": "1",
+                        "dette_id": "1",
+                        "quantite-commande": "2"
+                        },
+                        {
+                            "reference": "2",
+                            "dette_id": "2",
+                            "quantite-commande": "5"
+                            }
+                        ]
+                
+
+
+}
