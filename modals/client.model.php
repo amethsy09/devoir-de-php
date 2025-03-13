@@ -17,7 +17,11 @@ function getClientByTel($tel)
     }
     return null; // 
 }
-function sauvegarderDonnees($data)
-{
-    file_put_contents(DATA_FILE, json_encode($data, JSON_PRETTY_PRINT));
+// function sauvegarderDonnees($data)
+// {
+//     file_put_contents(DATA_FILE, json_encode($data, JSON_PRETTY_PRINT));
+// }
+function sauvegarderDonnees($data) {
+    $jsonData = json_encode($data, JSON_PRETTY_PRINT);
+    file_put_contents(DATA_FILE, $jsonData);
 }

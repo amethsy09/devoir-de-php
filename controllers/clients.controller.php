@@ -81,6 +81,7 @@ if (isset($_REQUEST['page'])) {
     
                 $data[] = $newDette;
                 file_put_contents('../data/data.json', json_encode($data, JSON_PRETTY_PRINT));
+                sauvegarderDonnees($data);
                 // require_once "../views/client/ajout_client_dette.html.php";
                 header('location:?controller=clients&page=liste');
             }
